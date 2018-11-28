@@ -46,7 +46,6 @@
 
 .description {
     flex: 0 0 60%;
-    font-size: 1.4rem;
     margin-right: 4.5rem;
     background-color: var(--color-white);
     padding: 3rem;
@@ -55,4 +54,8 @@
 
 .user-reviews {
     flex: 1;
+
+    display: flex;              //to center the show all button
+    flex-direction: column;
+    align-items: center;
 }
